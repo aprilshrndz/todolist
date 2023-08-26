@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
-import InputField from '../.common/inputField'
-import Button from '../.common/button'
+import InputField from '../../components/common/inputField'
+import Button from '../../components/common/button'
 
 const AuthForm = () => {
     const [username, setUsername] = useState('')

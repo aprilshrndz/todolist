@@ -27,6 +27,6 @@
       "@testing-library/jest-dom/jest-globals"
     ],
   },
-  "include": ["src", "src/components/.common"],
+  "include": ["src", "src/components/common"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

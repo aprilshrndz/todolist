@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import AuthPage from './pages/authPage'
-import DashboardPage from './pages/dashboardPage'
 
 import './App.css'
+import Dashboard from './pages/Dashboard'
+import Auth from './pages/Auth'
 
 function App() {
 
@@ -13,9 +13,9 @@ function App() {
       <div className='w-screen h-screen bg-custom-gray'>
         <Router>
           <Routes>
-            <Route path='/' element={<DashboardPage />}/>
-            <Route path='/login' element={<AuthPage />}/>
-            <Route path='/register' element={<AuthPage />}/>
+            <Route path='/' element={<Dashboard />}/>
+            <Route path='/login' element={<Auth />}/>
+            <Route path='/register' element={<Auth />}/>
           </Routes>
         </Router>
       </div>
