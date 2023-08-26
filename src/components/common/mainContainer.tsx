@@ -7,7 +7,7 @@ interface MainContainerProps {
 
 const MainContainer = (props: MainContainerProps) => {
     const { children } = props
-    return <div className="w-full h-full flex flex-row sm:flex-row">
+    return <div className="w-full h-full flex flex-col sm:flex-row">
         <Navbar />
         <div className="w-full h-full">
             {children}
